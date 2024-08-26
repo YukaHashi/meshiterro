@@ -10,4 +10,7 @@ class HomesController < ApplicationController
     
     def edit
     end
+    
+    def about
+    end
 end
