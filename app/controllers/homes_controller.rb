@@ -1,14 +1,12 @@
 class HomesController < ApplicationController
-    def top
+    def new
+        @post_imagee = "PostImage"
     end
     
     def index
     end
     
     def show
-    end
-    
-    def edit
     end
     
     def about
