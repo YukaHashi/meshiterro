@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
-  def show
+  def shoe
+    @user = User.find(params[:id])
+    @post_image = @user.post_image
   end
 
   def edit
